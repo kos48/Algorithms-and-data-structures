@@ -1,1 +1,11 @@
+#1. Найти сумму и произведение цифр трехзначного числа, которое вводит пользователь.
+
+user_number = input('Введите 3-х значное число:  ')
+a=int(user_number[0])
+b=int(user_number[1])
+c=int(user_number[2])
+summ = a + b + c
+comp = a * b * c
+print(f'сумма = {summ}')
+print(f'произведение = {comp}')
 
